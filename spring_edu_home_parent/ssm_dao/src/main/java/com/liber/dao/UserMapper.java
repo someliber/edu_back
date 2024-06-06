@@ -32,19 +32,4 @@ public interface UserMapper {
     List<Menu>findSubMenuPid(Integer pid);
     //4.获取用户拥有的资源权限信息
     List<Resource>findResourceByRoleId(List<Integer>ids);
-    List<Resource>findResourceByRoleId1(List<Integer>ids);
-    void test011();
-    void test021();
-    void test031();
-    void test041();
-    void test051();
-    void test061();
-    void test071();
-    void test01();
-    void test02();
-    void test03();
-    void test04();
-    void test05();
-    void test06();
-    void test07();
 }
